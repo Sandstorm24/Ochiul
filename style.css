@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: customFont;
+	src: url(font.ttf);
+}
+
 body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
@@ -15,6 +20,11 @@ body {
 header {
 	background-color: #ed3237;
 	padding: 20px;
+}
+
+#custom {
+	font-family: customFont;
+	letter-spacing: 3px;
 }
 
 h1 {
@@ -61,4 +71,8 @@ footer {
 	padding: 10px;
 	text-align: center;
 	font-size: 0.8em;
+}
+
+#bg {
+	background-image: url("bg.jpg");
 }
